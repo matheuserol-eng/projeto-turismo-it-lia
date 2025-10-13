@@ -9,7 +9,7 @@ export const CulinaryPage = () => {
                 <div className="w-full flex flex-col rounded-full items-center min-h-[30rem] px-8 justify-center bg-[url('./comida.png')] bg-no-repeat bg-center">
                     <h1 className="text-5xl font-bold">Culinária e Costumes <br /> Italianos</h1><br />
                     <h2 className="text-2xl font-bold">Olá! Sejam todos bem vindos ao Site onde<br /> iremos mostrar um pouco sobre a cultura<br /> italiana!!</h2>
-                    <a href="#conteudo" className="p-4 bg-cyan-400 rounded-lg cursor-pointer">Avançar</a>
+                    <a href="#conteudo" className="my-10 p-4 bg-cyan-400 rounded-lg cursor-pointer">Avançar</a>
                 </div>
 
                 <div className="w-full py-10 max-w-5xl px-8 lg:px-12 mx-auto flex flex-col items-center justify-center">
