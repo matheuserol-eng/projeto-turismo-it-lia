@@ -9,11 +9,11 @@ export const CulinaryPage = () => {
                 <div className="w-full flex flex-col rounded-full items-center min-h-[30rem] px-8 justify-center bg-[url('./comida.png')] bg-no-repeat bg-center">
                     <h1 className="text-5xl font-bold">Culinária e Costumes <br /> Italianos</h1><br />
                     <h2 className="text-2xl font-bold">Olá! Sejam todos bem vindos ao Site onde<br /> iremos mostrar um pouco sobre a cultura<br /> italiana!!</h2>
-                    <button className="p-4 bg-cyan-400 rounded-lg cursor-pointer">Avançar</button>
+                    <a href="#conteudo" className="p-4 bg-cyan-400 rounded-lg cursor-pointer">Avançar</a>
                 </div>
 
-                <div className="w-full py-10 max-w-5xl px-8 lg:px-12 mx-auto">
-                    <section className="w-full mb-6 flex flex-col items-center justify-center mb-12">
+                <div className="w-full py-10 max-w-5xl px-8 lg:px-12 mx-auto flex flex-col items-center justify-center">
+                    <section id="conteudo" className="w-full flex flex-col items-center justify-center mb-12">
 
                         <h2 className="text-2xl font-bold text-center mb-4">A Culinária</h2>
 
@@ -27,7 +27,7 @@ export const CulinaryPage = () => {
                         </article>
                     </section>
 
-                    <div className="w-full grid grid-cols-1 lg:grid-cols-2">
+                    <div className="w-full grid grid-cols-1 lg:grid-cols-2 mb-12">
                         <section className="flex flex-col items-center justify-center">
                             <figure className="w-full max-w-40">
                                 <img src="./pizza1.png" alt="Pizza" />
@@ -76,9 +76,11 @@ export const CulinaryPage = () => {
                         </section>
                     </div>
 
-                    <button className="p-4 bg-stone-900 text-white rounded-lg cursor-pointer">Ir ao topo</button>
+                    <a href="#" className="p-4 bg-stone-900 text-white rounded-lg cursor-pointer mx-auto">Ir ao topo</a>
+                    
                 </div>
             </main>
+            
         </main>
     )
 }
